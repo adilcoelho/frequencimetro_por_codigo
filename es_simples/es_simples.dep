@@ -38,6 +38,7 @@
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$PROJ_DIR$\src\startup_ewarm.c</file>
             <file>$PROJ_DIR$\..\inc\hw_types.h</file>
+            <file>C:\Users\adilc\Downloads\Tiva_IAR8\es_simples\src\startup_ewarm.c</file>
             <file>$PROJ_DIR$\..\es_user\src\main.c</file>
             <file>C:\Users\adilc\Downloads\Tiva_IAR8\driverlib\gpio.c</file>
         </outputs>
@@ -79,7 +80,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 10 6 19 20 17 29 11 16 21 13 26 3</file>
+                    <file> 17 6 29 19 20 10 11 16 21 13 26 3</file>
                 </tool>
             </inputs>
         </file>

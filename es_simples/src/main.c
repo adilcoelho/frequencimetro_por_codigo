@@ -5,7 +5,7 @@
 #include "driverlib/sysctl.h" // driverlib
 #include "driverlib/gpio.h"
 #include "driverlib/systick.h"
-#define NTESTES 1332862
+#define NTESTES 1090472 // 631711 * 1,7262
 
 void main(void){
   uint32_t ui32SysClock = SysCtlClockFreqSet((SYSCTL_XTAL_25MHZ |
@@ -25,13 +25,20 @@ void main(void){
   GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_3); 
   GPIOPinTypeGPIOInput(GPIO_PORTM_BASE, GPIO_PIN_3); 
   //GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0 , 0); 
+  int leituraAnterior = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_0);
   while(1)
   {
+    int contagem = 0;
     int i;
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , GPIO_PIN_3); 
     for(i = 0; i < NTESTES; i++)
     {
       int a = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_0);
+      if (a != leituraAnterior)
+      {
+        contagem++;
+      }
+      leituraAnterior = a;
     }
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , 0); 
   }
