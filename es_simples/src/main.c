@@ -13,7 +13,7 @@ void main(void){
                                               SYSCTL_USE_PLL |
                                               SYSCTL_CFG_VCO_480),
                                               24000000); // PLL em 24MHz
-   
+   //iartheworld
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION); 
   while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPION)); // Aguarda final da habilita��o
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOM); 
