@@ -1,37 +1,37 @@
-"H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\src\main.c"
+"D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\src\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\src
+D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\src
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\..\..\..
+D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\..\..\..
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\..
+D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\..
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\..\inc
+D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\..\inc
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\..\driverlib
+D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\..\driverlib
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+D:\Programas\IAR Embedded Workbench\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+D:\Programas\IAR Embedded Workbench\arm\CMSIS\DSP\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
+D:\Programas\IAR Embedded Workbench\arm\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
+D:\Programas\IAR Embedded Workbench\arm\inc\c
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados
+D:\Estudos\Oitavo Período\Sistemas Embarcados
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo
+D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\inc
+D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\inc
 -I
-H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\driverlib
+D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\driverlib
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+D:\Programas\IAR Embedded Workbench\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+D:\Programas\IAR Embedded Workbench\arm\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -325,8 +325,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -Dewarm=1
 -DPART_TM4C1294NCPDT=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="D:\\Programas\\IAR Embedded Workbench\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="D:\\Programas\\IAR Embedded Workbench\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.32.3.193/W32 for ARM"
 -D__ICCARM_OLD_DEFINED_VAARGS__=1
 -D__VA_STACK_ALIGN__=8

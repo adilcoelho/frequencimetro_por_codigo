@@ -33,8 +33,8 @@ void main(void){
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , GPIO_PIN_3); 
     for(i = 0; i < NTESTES; i++)
     {
-      int a = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_0);
-      if (a != leituraAnterior)
+      int a = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_3);
+      if (a != leituraAnterior && a = GPIO_PIN_3)
       {
         contagem++;
       }

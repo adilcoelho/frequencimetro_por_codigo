@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\settings\es_simples.Debug.general.xcl" --backend -f "H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\settings\es_simples.Debug.driver.xcl" 
+"D:\Programas\IAR Embedded Workbench\common\bin\cspybat" -f "D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\settings\es_simples.Debug.general.xcl" --backend -f "D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\settings\es_simples.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\settings\es_simples.Debug.general.xcl" "--debug_file=%~1" --backend -f "H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\settings\es_simples.Debug.driver.xcl" 
+"D:\Programas\IAR Embedded Workbench\common\bin\cspybat" -f "D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\settings\es_simples.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Estudos\Oitavo Período\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\settings\es_simples.Debug.driver.xcl" 
 
 @echo off 
 :end
