@@ -1,33 +1,27 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.3.193/W32 for ARM                  02/Apr/2019  21:54:19
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  04/Apr/2019  18:46:33
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8
-#        Periodo\Sistemas
-#        Embarcados\Lab1\frequencimetro_por_codigo\es_simples\Debug\Exe\es_simples.out
+#        H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por
+#        codigo\frequencimetro_por_codigo\es_simples\Debug\Exe\es_simples.out
 #    Map file     =  
-#        C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8
-#        Periodo\Sistemas
-#        Embarcados\Lab1\frequencimetro_por_codigo\es_simples\Debug\List\es_simples.map
+#        H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por
+#        codigo\frequencimetro_por_codigo\es_simples\Debug\List\es_simples.map
 #    Command line =  
-#        -f C:\Users\adilc\AppData\Local\Temp\EW39A3.tmp
-#        ("C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8
-#        Periodo\Sistemas
-#        Embarcados\Lab1\frequencimetro_por_codigo\driverlib\ewarm\Exe\driverlib.a"
-#        "C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8
-#        Periodo\Sistemas
-#        Embarcados\Lab1\frequencimetro_por_codigo\es_simples\Debug\Obj\main.o"
-#        "C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8
-#        Periodo\Sistemas
-#        Embarcados\Lab1\frequencimetro_por_codigo\es_simples\Debug\Obj\startup_ewarm.o"
-#        --no_out_extension -o "C:\Users\adilc\OneDrive -
-#        alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas
-#        Embarcados\Lab1\frequencimetro_por_codigo\es_simples\Debug\Exe\es_simples.out"
-#        --map "C:\Users\adilc\OneDrive -
-#        alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas
-#        Embarcados\Lab1\frequencimetro_por_codigo\es_simples\Debug\List\es_simples.map"
+#        -f C:\Users\adilc\AppData\Local\Temp\EWD077.tmp ("H:\UTFPR\8
+#        Periodo\Sistemas Embarcados\Frequencimetro por
+#        codigo\frequencimetro_por_codigo\driverlib\ewarm\Exe\driverlib.a"
+#        "H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por
+#        codigo\frequencimetro_por_codigo\es_simples\Debug\Obj\main.o"
+#        "H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por
+#        codigo\frequencimetro_por_codigo\es_simples\Debug\Obj\startup_ewarm.o"
+#        --no_out_extension -o "H:\UTFPR\8 Periodo\Sistemas
+#        Embarcados\Frequencimetro por
+#        codigo\frequencimetro_por_codigo\es_simples\Debug\Exe\es_simples.out"
+#        --map "H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por
+#        codigo\frequencimetro_por_codigo\es_simples\Debug\List\es_simples.map"
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.2\arm\config\linker\TexasInstruments\TM4C1294NC.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
@@ -109,7 +103,7 @@ command line/config:
     -------------------------------------------
     Total:
 
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\Debug\Obj: [1]
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\Debug\Obj: [1]
     main.o                200
     startup_ewarm.o        32      512      256
     -------------------------------------------
@@ -185,7 +179,7 @@ main                          0x7d5   0xc8  Code  Gb  main.o [1]
 pui32Stack              0x2000'0000  0x100  Data  Lc  startup_ewarm.o [1]
 
 
-[1] = C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\Debug\Obj
+[1] = H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\Debug\Obj
 [2] = dl7M_tln.a
 [3] = driverlib.a
 [4] = rt7M_tl.a

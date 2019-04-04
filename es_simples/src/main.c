@@ -25,11 +25,11 @@ void main(void){
   GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_3); 
   GPIOPinTypeGPIOInput(GPIO_PORTM_BASE, GPIO_PIN_3); 
   //GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0 , 0); 
-  int leituraAnterior = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_3);
   while(1)
   {
     int contagem = 0;
     int i;
+    int leituraAnterior = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_3);
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , GPIO_PIN_3); 
     for(i = 0; i < NTESTES; i++)
     {

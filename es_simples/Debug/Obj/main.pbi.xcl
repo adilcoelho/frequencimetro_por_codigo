@@ -1,17 +1,17 @@
-"C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\src\main.c"
+"H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\src\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\src
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\src
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\..\..\..
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\..\..\..
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\..
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\..
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\..\inc
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\..\inc
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\es_simples\..\driverlib
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\es_simples\..\driverlib
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I
@@ -21,13 +21,13 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados
+H:\UTFPR\8 Periodo\Sistemas Embarcados
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\inc
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\inc
 -I
-C:\Users\adilc\OneDrive - alunos.utfpr.edu.br\UTFPR\Engenharia\8 Periodo\Sistemas Embarcados\Lab1\frequencimetro_por_codigo\driverlib
+H:\UTFPR\8 Periodo\Sistemas Embarcados\Frequencimetro por codigo\frequencimetro_por_codigo\driverlib
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I
