@@ -20,16 +20,25 @@ void main(void){
   while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOM)); // Aguarda final da habilita��o
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF); 
   while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF)); // Aguarda final da habilita��o
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOJ); 
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOJ)); // Aguarda final da habilita��o
   
   GPIOPinTypeGPIOOutput(GPIO_PORTN_BASE, GPIO_PIN_0); 
   GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_3); 
   GPIOPinTypeGPIOInput(GPIO_PORTM_BASE, GPIO_PIN_3); 
+  GPIOPinTypeGPIOInput(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1); 
+  GPIOPadConfigSet(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
   //GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0 , 0); 
   while(1)
   {
     int contagem = 0;
     int i;
     int leituraAnterior = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_3);
+    int leitura = GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1);
+    int x = leitura;
+    if(x == leitura) {
+      x = leitura;
+    }
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , GPIO_PIN_3); 
     for(i = 0; i < NTESTES; i++)
     {

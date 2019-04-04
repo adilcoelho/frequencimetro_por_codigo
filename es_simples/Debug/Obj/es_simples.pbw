@@ -121848,13 +121848,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1307@F@main@contagem",
+    "ID": "c:main.c@1620@F@main@contagem",
     "What": "Variable",
     "defdec": "Def",
     "display": "contagem",
     "location": {
       "column": "9",
-      "line": "30",
+      "line": "34",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "contagem",
@@ -121862,13 +121862,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1330@F@main@i",
+    "ID": "c:main.c@1643@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "9",
-      "line": "31",
+      "line": "35",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "i",
@@ -121876,13 +121876,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1342@F@main@leituraAnterior",
+    "ID": "c:main.c@1655@F@main@leituraAnterior",
     "What": "Variable",
     "defdec": "Def",
     "display": "leituraAnterior",
     "location": {
       "column": "9",
-      "line": "32",
+      "line": "36",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "leituraAnterior",
@@ -121890,17 +121890,115 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1516@F@main@a",
+    "ID": "c:main.c@1724@F@main@leitura",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "leitura",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
+    },
+    "name": "leitura",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1785@F@main@x",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
+    },
+    "name": "x",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1963@F@main@a",
     "What": "Variable",
     "defdec": "Def",
     "display": "a",
     "location": {
       "column": "11",
-      "line": "36",
+      "line": "45",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "a",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@96@macro@_STDBOOL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STDBOOL",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "_STDBOOL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@200@macro@bool",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "bool",
+    "location": {
+      "column": "11",
+      "line": "13",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "bool",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@225@macro@true",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "true",
+    "location": {
+      "column": "11",
+      "line": "14",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "true",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@246@macro@false",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "false",
+    "location": {
+      "column": "11",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "false",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__bool_true_false_are_defined",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "__bool_true_false_are_defined",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -122264,76 +122362,6 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product.h"
     },
     "name": "_CPPINIT_ATTR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@96@macro@_STDBOOL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STDBOOL",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "_STDBOOL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@200@macro@bool",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "bool",
-    "location": {
-      "column": "11",
-      "line": "13",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "bool",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@225@macro@true",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "true",
-    "location": {
-      "column": "11",
-      "line": "14",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "true",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@246@macro@false",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "false",
-    "location": {
-      "column": "11",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "false",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__bool_true_false_are_defined",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "__bool_true_false_are_defined",
     "origin": "system_include",
     "scope": null
   },
