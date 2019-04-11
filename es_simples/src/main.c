@@ -5,8 +5,8 @@
 #include "driverlib/sysctl.h" // driverlib
 #include "driverlib/gpio.h"
 #include "driverlib/systick.h"
-#define AMOSTRAUMSEG 1090472 // 631711 * 1,7262
-#define AMOSTRAUMMILI 1198 // 632 * 1,99
+#define AMOSTRAUMSEG 1262559 // 631711 * 1,7262 *1,15
+#define AMOSTRAUMMILI 1261 // 632 * 1,99 * 1,053
 
 void main(void){
   uint32_t ui32SysClock = SysCtlClockFreqSet((SYSCTL_XTAL_25MHZ |
@@ -29,19 +29,24 @@ void main(void){
   GPIOPinTypeGPIOInput(GPIO_PORTM_BASE, GPIO_PIN_3); 
   GPIOPinTypeGPIOInput(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1); 
   GPIOPadConfigSet(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
-  //GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0 , 0); 
+  
+   int numamostras = AMOSTRAUMSEG;
   while(1)
   {
     int contagem = 0;
     int i;
-    int leituraAnterior = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_3);
-    int leitura = GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1);
-    int x = leitura;
-    if(x == leitura) {
-      x = leitura;
+    int leitura = GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1 | GPIO_PIN_0);
+    switch(leitura) 
+    {
+      case GPIO_PIN_0: numamostras = AMOSTRAUMSEG;
+      break;
+      
+      case GPIO_PIN_1: numamostras = AMOSTRAUMMILI;
+      break;
     }
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , GPIO_PIN_3); 
-    for(i = 0; i < AMOSTRAUMMILI; i++)
+    int leituraAnterior = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_3);
+    for(i = 0; i < numamostras; i++)
     {
       int a = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_3);
       if (a != leituraAnterior && a == GPIO_PIN_3)
@@ -51,5 +56,8 @@ void main(void){
       leituraAnterior = a;
     }
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , 0); 
+    if(contagem) {
+      contagem = contagem -1;
+    }
   }
 }
