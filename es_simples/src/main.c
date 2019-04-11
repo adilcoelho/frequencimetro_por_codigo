@@ -4,9 +4,43 @@
 #include "inc/hw_memmap.h"
 #include "driverlib/sysctl.h" // driverlib
 #include "driverlib/gpio.h"
+#include "driverlib/pin_map.h"
 #include "driverlib/systick.h"
+#include "driverlib/uart.h"
+#include "utils/uartstdio.h"
+
 #define AMOSTRAUMSEG 1262559 // 631711 * 1,7262 *1,15
 #define AMOSTRAUMMILI 1261 // 632 * 1,99 * 1,053
+
+
+uint32_t g_ui32SysClock;
+
+void
+ConfigureUART(void)
+{
+    //
+    // Enable the GPIO Peripheral used by the UART.
+    //
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
+
+    //
+    // Enable UART0.
+    //
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_UART0);
+
+    //
+    // Configure GPIO Pins for UART mode.
+    //
+    GPIOPinConfigure(GPIO_PA0_U0RX);
+    GPIOPinConfigure(GPIO_PA1_U0TX);
+    GPIOPinTypeUART(GPIO_PORTA_BASE, GPIO_PIN_0 | GPIO_PIN_1);
+
+    //
+    // Initialize the UART for console I/O.
+    //
+    UARTStdioConfig(0, 115200, g_ui32SysClock);
+}
+
 
 void main(void){
   uint32_t ui32SysClock = SysCtlClockFreqSet((SYSCTL_XTAL_25MHZ |
@@ -14,6 +48,7 @@ void main(void){
                                               SYSCTL_USE_PLL |
                                               SYSCTL_CFG_VCO_480),
                                               24000000); // PLL em 24MHz
+  g_ui32SysClock = ui32SysClock;
    //iartheworld
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION); 
   while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPION)); // Aguarda final da habilita��o
@@ -29,6 +64,7 @@ void main(void){
   GPIOPinTypeGPIOInput(GPIO_PORTM_BASE, GPIO_PIN_3); 
   GPIOPinTypeGPIOInput(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1); 
   GPIOPadConfigSet(GPIO_PORTJ_BASE, GPIO_PIN_0 | GPIO_PIN_1, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
+  ConfigureUART();
   
    int numamostras = AMOSTRAUMSEG;
   while(1)
@@ -56,8 +92,7 @@ void main(void){
       leituraAnterior = a;
     }
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , 0); 
-    if(contagem) {
-      contagem = contagem -1;
-    }
+    
+    UARTprintf("%d\n", contagem);
   }
 }
