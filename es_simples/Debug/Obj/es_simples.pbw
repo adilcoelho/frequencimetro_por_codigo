@@ -117942,20 +117942,6 @@
     "scope": null
   },
   {
-    "ID": "c:stdint.h@T@__data_uintptr_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "89",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdint.h"
-    },
-    "name": "__data_uintptr_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:stdint.h@T@__data_intptr_t",
     "What": "Typedef",
     "defdec": "Def",
@@ -117966,6 +117952,20 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdint.h"
     },
     "name": "__data_intptr_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdint.h@T@__data_uintptr_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "89",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdint.h"
+    },
+    "name": "__data_uintptr_t",
     "origin": "system_include",
     "scope": null
   },
@@ -121806,16 +121806,30 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@230@macro@NTESTES",
+    "ID": "c:main.c@230@macro@AMOSTRAUMSEG",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "NTESTES",
+    "display": "AMOSTRAUMSEG",
     "location": {
       "column": "9",
       "line": "8",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
-    "name": "NTESTES",
+    "name": "AMOSTRAUMSEG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@279@macro@AMOSTRAUMMILI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "AMOSTRAUMMILI",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
+    },
+    "name": "AMOSTRAUMMILI",
     "origin": "project_file",
     "scope": null
   },
@@ -121826,7 +121840,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "10",
+      "line": "11",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "main",
@@ -121834,13 +121848,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@288@F@main@ui32SysClock",
+    "ID": "c:main.c@335@F@main@ui32SysClock",
     "What": "Variable",
     "defdec": "Def",
     "display": "ui32SysClock",
     "location": {
       "column": "12",
-      "line": "11",
+      "line": "12",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "ui32SysClock",
@@ -121848,13 +121862,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1620@F@main@contagem",
+    "ID": "c:main.c@1667@F@main@contagem",
     "What": "Variable",
     "defdec": "Def",
     "display": "contagem",
     "location": {
       "column": "9",
-      "line": "34",
+      "line": "35",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "contagem",
@@ -121862,13 +121876,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1643@F@main@i",
+    "ID": "c:main.c@1690@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "9",
-      "line": "35",
+      "line": "36",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "i",
@@ -121876,13 +121890,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1655@F@main@leituraAnterior",
+    "ID": "c:main.c@1702@F@main@leituraAnterior",
     "What": "Variable",
     "defdec": "Def",
     "display": "leituraAnterior",
     "location": {
       "column": "9",
-      "line": "36",
+      "line": "37",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "leituraAnterior",
@@ -121890,13 +121904,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1724@F@main@leitura",
+    "ID": "c:main.c@1771@F@main@leitura",
     "What": "Variable",
     "defdec": "Def",
     "display": "leitura",
     "location": {
       "column": "9",
-      "line": "37",
+      "line": "38",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "leitura",
@@ -121904,13 +121918,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1785@F@main@x",
+    "ID": "c:main.c@1832@F@main@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "9",
-      "line": "38",
+      "line": "39",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "x",
@@ -121918,13 +121932,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1963@F@main@a",
+    "ID": "c:main.c@2016@F@main@a",
     "What": "Variable",
     "defdec": "Def",
     "display": "a",
     "location": {
       "column": "11",
-      "line": "45",
+      "line": "46",
       "path": "H:\\UTFPR\\8 Periodo\\Sistemas Embarcados\\Frequencimetro por codigo\\frequencimetro_por_codigo\\es_simples\\src\\main.c"
     },
     "name": "a",
@@ -132964,20 +132978,6 @@
     "scope": null
   },
   {
-    "ID": "c:stdint.h@T@__data_uintptr_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "89",
-      "path": "D:\\Programas\\IAR Embedded Workbench\\arm\\inc\\c\\stdint.h"
-    },
-    "name": "__data_uintptr_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:stdint.h@T@__data_intptr_t",
     "What": "Typedef",
     "defdec": "Def",
@@ -132988,6 +132988,20 @@
       "path": "D:\\Programas\\IAR Embedded Workbench\\arm\\inc\\c\\stdint.h"
     },
     "name": "__data_intptr_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdint.h@T@__data_uintptr_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "89",
+      "path": "D:\\Programas\\IAR Embedded Workbench\\arm\\inc\\c\\stdint.h"
+    },
+    "name": "__data_uintptr_t",
     "origin": "user_include",
     "scope": null
   },

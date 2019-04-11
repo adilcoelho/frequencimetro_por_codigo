@@ -5,7 +5,8 @@
 #include "driverlib/sysctl.h" // driverlib
 #include "driverlib/gpio.h"
 #include "driverlib/systick.h"
-#define NTESTES 1090472 // 631711 * 1,7262
+#define AMOSTRAUMSEG 1090472 // 631711 * 1,7262
+#define AMOSTRAUMMILI 1198 // 632 * 1,99
 
 void main(void){
   uint32_t ui32SysClock = SysCtlClockFreqSet((SYSCTL_XTAL_25MHZ |
@@ -40,7 +41,7 @@ void main(void){
       x = leitura;
     }
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3 , GPIO_PIN_3); 
-    for(i = 0; i < NTESTES; i++)
+    for(i = 0; i < AMOSTRAUMMILI; i++)
     {
       int a = GPIOPinRead(GPIO_PORTM_BASE, GPIO_PIN_3);
       if (a != leituraAnterior && a == GPIO_PIN_3)
